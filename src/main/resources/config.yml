@@ -1,0 +1,21 @@
+hologram-length: 5
+
+# How would you like the death holograms to be formatted?
+# PlaceHolders:
+#
+# {killer} - The killer who killed the player.
+# {player} - The player who died.
+#
+# {playerHead} - Display the player's head. (NOTE: YOU CANNOT HAVE ANY OTHER TEXT ON A LINE CONTAINING THIS VARIABLE)
+# {killerHead} - Display the killer's head. (NOTE: YOU CANNOT HAVE ANY OTHER TEXT ON A LINE CONTAINING THIS VARIABLE)
+#
+# {remainingHealth} - Display the killer's remaining health.
+# {killedItemWith} - Displays the item the player was killed with. (NOTE: YOU CANNOT HAVE ANY OTHER TEXT ON A LINE CONTAINING THIS VARIABLE)
+#
+
+# For each hologram the permission is customholograms.(Hologram Name). If the person has the permission, that holo will be displayed.
+
+Holograms:
+  Member:
+    - '{playerHead}'
+    - '{player}'

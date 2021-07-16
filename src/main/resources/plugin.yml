@@ -1,0 +1,7 @@
+name: DeathHolograms
+main: net.choco.deathholograms.Main
+version: 1.0
+api-version: 1.13
+author: chochoco4777
+description: Create own death holograms!
+softdepend: [HolographicDisplays]
